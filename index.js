@@ -1,6 +1,6 @@
 $(document).ready(function(){
 
-      window.onload(alert("Hello "));
+      window.onload(alert("This is just a clone of google homePage."));
       
    
     
