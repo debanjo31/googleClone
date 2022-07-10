@@ -13,6 +13,7 @@
     --active : rgb(111, 164, 248);
     --search : rgb(48, 49, 53);
     --footer : rgb(23, 23, 23);
+    --googleText : rgb(189, 192, 197);
     font-size: 10px;
 }
 
@@ -183,9 +184,9 @@ body{
 }
 
 .bi-person-fill{
-    font-size: 2.2rem;
+    font-size: 2rem;
     margin-top: 1px;
-    margin-left: 1.2px;
+    margin-left: 3px;
 }
 
 .main .language{
@@ -196,6 +197,7 @@ body{
     font-size: 1.5rem;
     font-weight: 100;
     margin-bottom: 1rem;
+    color: var(--googleText);
 } 
 
 .main .language .languages{
@@ -206,7 +208,7 @@ body{
 
 .main .language .languages p{
     margin-right: 15px;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
 }
 
 /* FOOTER */
@@ -223,8 +225,8 @@ footer hr{
     margin-bottom: 2rem;
 }
 
-.footer h3{
-    padding: 10px;
+.footer h2{
+    padding: 0.8rem;
     margin-bottom: 0.5rem;
 }
 
