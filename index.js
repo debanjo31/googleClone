@@ -1,8 +1,26 @@
 $(document).ready(function(){
 
-      window.onload(alert("This is just a clone of google homePage."));
-      
+     
    
+    $(".out").click(function () {
+        $("#hidden").fadeOut("100");
+        $(".fade").css("opacity", "1");
+        $("body").css("overflow-y", "visible");
+    });
+    
+    $(".nav-icon").click(function () {
+        $("#hidden").fadeIn("1500");
+        $(".fade").css("opacity", "0.3");
+        $("body").css("overflow-y", "hidden");
+        $("body").css("z-index", "1000");
+    });
+    
+    window.onload(alert("This is just a clone of google homePage."));
+    
+  
+    });
+  
+     
     
 //    //need to create a function that toogle as the input is been clicked between white and black
       
@@ -19,12 +37,3 @@ $(document).ready(function(){
           
 //         }
 //         );  
-
-    $(".theme").click(function () {
-        console.log("Hello ");
-    });
-      
-
-  
-    });
-  
